@@ -13,7 +13,7 @@
   <% end %>
 <%= form_for @idea, :html => {:multipart => true} do |f| %>
   <div class="field">
-    <%= f.label :name %><br />
+    <div class="red"><%= f.label :name %></div><br />
     <%= f.text_field :name %>
   </div>
   <div class="field">

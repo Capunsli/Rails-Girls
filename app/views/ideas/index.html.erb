@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th>Name</th>
+    <th><div class="red">Name</div></th>
     <th>Description</th>
     <th>Picture</th>
     <th></th>
@@ -12,7 +12,7 @@
 
 <% @ideas.each do |idea| %>
   <tr>
-    <td><%= idea.name %></td>
+    <td><span class="blue"><%= idea.name %></span></td>
     <td><%= idea.description %></td>
     <td><%= idea.picture %></td>
     <td><%= link_to 'Show', idea %></td>
